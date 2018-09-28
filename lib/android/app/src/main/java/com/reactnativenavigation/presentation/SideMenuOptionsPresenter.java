@@ -9,7 +9,7 @@ public class SideMenuOptionsPresenter {
 
     private DrawerLayout sideMenu;
 
-    public void bindView(DrawerLayout sideMenu) {
+    public SideMenuOptionsPresenter(DrawerLayout sideMenu) {
         this.sideMenu = sideMenu;
     }
 
